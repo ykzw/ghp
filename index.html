@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  <title>Yusuke Kozawa</title>
+  </head>
+
+  <body lang="en">
+
+    <div id="wrapper">
+      <div id="header">
+        <div id="language">
+          <a href="index_ja.html">Japanese</a> / English
+        </div>
+      </div>
+      <div class="content" id="bio">
+        <h2>Biography</h2>
+        <img src="images/kozawa2018.png" style="width: 200px; position: relative; top: -30px;" align="right"/>
+        <p style="padding-left: 30px; width: 74%;">
+          <strong>Yusuke Kozawa</strong> is a postdoctoral researcher of
+          <a href="http://www.airc.aist.go.jp/en/team_e/">Artificial Intelligence Cloud Research Team</a> at
+          Artificial Intelligence Research Center (<a href="http://www.airc.aist.go.jp/en/">AIRC</a>),
+          National Institute of Advanced Industrial Science and Technology (<a href="http://www.aist.go.jp/index_en.html">AIST</a>), Japan.
+          He received B.Inf.Sc., M.Eng., and Ph.D. degrees from University of Tsukuba, Japan, in 2011, 2013, and 2016, respectively,
+          under the supervision of <a href="http://www.kde.cs.tsukuba.ac.jp/%7Ekitagawa/index.html">Prof. Hiroyuki Kitagawa</a>.
+          His research interests include databases, data mining, and parallel computing, especially GPU computing and its application to data analysis.
+        </p>
+      </div> <!-- end of Biography -->
+
+      <div id="publications" class="content">
+        <h2>Publications</h2>
+        <p style="padding-left: 30px; width: 74%;">
+          (Another format with some functionality is available <a href="publications.html">here</a>.)
+        </p>
+
+        <dl>
+          <p>
+            <div class="list">
+              <dt>Journals</dt>
+              <dd>
+                <ol id="journal">
+                  <script>
+                    $(function(){
+                    $("#journal").load("list.html li.J[lang='en']");
+                    });
+                  </script>
+                </ol>
+              </dd>
+            </div>
+
+          <p>
+            <div class="list">
+              <dt>Conferences and Workshops</dt>
+              <dd>
+                <ol id="conference">
+                  <script>
+                    $(function(){
+                        $("#conference").load("list.html li.C[lang='en']");
+                    });
+                  </script>
+                </ol>
+              </dd>
+            </div>
+          </p>
+
+        </dl>
+      </div> <!-- end of Publications -->
+
+
+      <div id="misc" class="content">
+        <h2>Miscellany</h2>
+        <dl>
+          <p>
+            <dt>Affiliation</dt>
+            <dd>
+              Artificial Intelligence Cloud Research Team<br/>
+              Artificial Intelligence Research Center<br/>
+              National Institude of Advanced Industrial Science and Technology
+            </dd>
+          </p>
+
+          <p>
+            <dt>Education</dt>
+            <dd><ol>
+                <li>
+                  <strong>Ph.D. in Engineering</strong>, Sept. 2016<br/>
+                  University of Tsukuba, Japan<br/>
+                  Supervisor: <a href="http://www.kde.cs.tsukuba.ac.jp/%7Ekitagawa/index.html">Prof. Hiroyuki Kitagawa</a>
+                </li><li>
+                  <strong>Master of Engineering</strong>, Mar. 2013<br/>
+                  University of Tsukuba, Japan<br/>
+                  Supervisor: <a href="http://www.kde.cs.tsukuba.ac.jp/%7Ekitagawa/index.html">Prof. Hiroyuki Kitagawa</a>
+                </li><li>
+                  <strong>Bachelor of Information Science</strong>, Mar. 2011<br/>
+                  University of Tsukuba, Japan<br/>
+                  Supervisor: <a href="http://www.kde.cs.tsukuba.ac.jp/%7Ekitagawa/index.html">Prof. Hiroyuki Kitagawa</a>
+                </li>
+            </ol></dd>
+          </p>
+
+        </dl>
+      </div>
+
+
+      <div id="contact" class="content">
+        <h2>Contact</h2>
+        <dl>
+          <p>
+          </p><dt>E-mail</dt>
+          <dd>ysk.kozawa __at__ gmail.com</dd>
+          <p></p>
+        </dl>
+      </div> <!-- end of Contact -->
+
+    </div>
+    <div id="footer">
+      <span>
+        Last updated on April 27th, 2018.
+      </span>
+    </div>
+
+  </body>
+</html>

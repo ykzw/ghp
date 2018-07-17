@@ -1,0 +1,199 @@
+body {
+    font: 92.5%/1.6em "Bitstream Charter" "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+    color: #222;
+    background-color: #fcfcfc;
+    margin: 0;
+    overflow-y: scroll
+    /* border-top: 3px solid #0B399F; /\* #8BC159; *\/ */
+    /* border-top: 3px solid #001847; /\* #8BC159; *\/ */
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+#footer {
+    padding: 10px;
+    text-align:right;
+    background-color: #fcfcfc;
+}
+
+#footer > span {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+#wrapper {
+    width: 86%;
+    margin:0 auto;
+    background-color: #fff;
+}
+
+#header {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcfc;
+}
+
+#language {
+    background-color: #fcfcfc;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.clear {
+	clear:both;
+}
+
+div.content {
+    padding: 10px 25px 15px 25px;
+}
+
+div.content p {
+    line-height:25px;
+    margin: 15px 0;
+    font-size:110%;
+}
+
+div.content a {
+    text-decoration: underline;
+    color: #00b;
+    border-bottom:1px solid #eee;
+}
+
+div.content a:hover {
+    color:#000;
+}
+
+div.content h2 {
+    font-family:"Times New Roman", Times, serif;
+    font-variant: small-caps;
+    font-size: 2.2em;
+    font-weight: normal;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+div.content h2 a {
+    color: #0B193F;
+    text-decoration: none;
+    border: none;
+}
+
+
+div.content ul {
+    margin: 0px 10px 10px 25px;
+}
+
+div.content ol {
+    margin: 0px 2px 5px 5px;
+}
+
+div.content li {
+    padding: 2px;
+}
+
+
+dl {
+    padding-left: 20px;
+    font-size: large;
+}
+
+dt {
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+dd {
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+dd > ol > li {
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+
+
+div.list > dt a {
+    background: url("images/sprite.png") 15px 13px no-repeat;
+    color: black;
+    display: block;
+    padding: 2px;
+    position: relative;
+    left: -30px;
+    padding-left: 30px;
+    text-decoration: none;
+    border: none;
+}
+
+div.list > dt.open a { background-position: 13px -25px; }
+div.list > dt + div { padding: 10px; }
+
+
+blockquote {
+    margin-left: 40px;
+    font-size: 90%;
+}
+
+
+
+/***** For publications *****/
+#search_form {
+    background-image: url('images/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 110%;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-top: 12px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+
+#thelist > li {
+    border-bottom: 1px solid #eee;
+    padding: 4px;
+}
+
+
+.highlight {
+    background-color: #ffffbb;
+}
+
+
+#thelist > .J, span.J {
+    background-color: #fffaff;
+}
+
+#thelist > .J:hover, span.J:hover {
+    background-color: #ffeaff;
+}
+
+#thelist > .C, span.C {
+    background-color: #faffff;
+}
+
+#thelist > .C:hover, span.C:hover {
+    background-color: #eaffff;
+}
+
+
+span.J, span.C {
+    font-weight: bold;
+    font-size: 110%;
+    border: 1px solid #eee;
+    padding: 8px 8px 8px 8px;
+    float: right;
+    margin: 24px 8px 8px 8px
+}
