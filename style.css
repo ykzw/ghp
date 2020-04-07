@@ -63,7 +63,6 @@ div.content p {
 div.content a {
     text-decoration: underline;
     color: #00b;
-    border-bottom:1px solid #eee;
 }
 
 div.content a:hover {
